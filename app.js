@@ -7,7 +7,7 @@ window.addEventListener("scroll", () => {
 
 function updateImg() {
     bgImg.style.opacity = 1 - window.pageYOffset / 800;
-    bgImg.style.backgroundSize = 160 - window.pageYOffset / 12 + "%";
+    bgImg.style.backgroundSize = 120 - window.pageYOffset / 12 + "%";
 }
 // *scroll bar section end
 // *fetch data
